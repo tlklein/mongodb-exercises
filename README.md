@@ -88,3 +88,13 @@ This repository contains a series of exercises designed to help users practice b
 
 ### Screenshot
 ![Exercise G](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20g.png)
+
+
+## About the Author
+
+This activity was completed as part of the **CIS 4338 Database Administration & Implementation** at the University of Houston under the guidance of Professor Susan Miertschin.
+
+---
+
+Feel free to contribute, provide feedback, or discuss improvements!
+
