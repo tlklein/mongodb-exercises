@@ -7,7 +7,7 @@ This repository contains a series of exercises designed to help users practice b
 1. Create a new database named `employees` using the `use` command.
 2. List all databases on your MongoDB instance.
 
-**Screenshot:**
+### Screenshot
 ![Exercise A](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm2%20part%20a.png)
 
 
@@ -15,13 +15,13 @@ This repository contains a series of exercises designed to help users practice b
 
 1. Create a database named `temporary`, add a collection named `test` to it, and then drop the database. Report the output of `show dbs` and `show collections` before and after the database drop.
 
-**Screenshot:**
+### Screenshot
 ![Exercise B1](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm2%20part%20b.png)
 
 2. Create multiple collections using department names in the database created in Exercise A.
 3. List all collections in the current database.
 
-**Screenshot:**
+### Screenshot
 ![Exercise B2](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20b%202.png)
 
 
@@ -30,10 +30,8 @@ This repository contains a series of exercises designed to help users practice b
 1. Insert some employee documents with fields (employee id, name, and salary) into multiple collections created in previous exercises.
 2. Use the `find` command to retrieve all the entered data.
 
-**Screenshot:**
+### Screenshot
 ![Exercise C](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20c.png)
-
-
 
 ## Exercise D: Querying Documents
 
@@ -43,36 +41,35 @@ This repository contains a series of exercises designed to help users practice b
 4. Find all documents where the `name` field contains "John".
 5. Find 2 documents using the `name` field.
 
-**Screenshot:**
+### Screenshot
 ![Exercise D](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20d.png)
-
 
 
 ## Exercise E: Working with `zips.json`
 
 0. Import the `zips.json` file into MongoDB.
 
-**Screenshot:**
+### Screenshot
 ![Exercise E0](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20import.png)
 
 1. Get all cities with a population of less than 1500.
 
-**Screenshot:**
+### Screenshot
 ![Exercise E1](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20e%201.png)
 
 2. Find all data for the city "CHESTER" using a query operator.
 
-**Screenshot:**
+### Screenshot
 ![Exercise E2](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20e%202.5.png)
 
 3. Use the array query operator to find all entries for locations at `(-84.38570799999999, 45.015207)`.
 
-**Screenshot:**
+### Screenshot
 ![Exercise E3](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20e%202.png)
 
 4. Use a logical operator to find all entries that match the city "WARREN", or the location at `(-80.76424299999999, 41.231819)`.
 
-**Screenshot:**
+### Screenshot
 ![Exercise E4](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20e%203.png)
 
 
@@ -81,7 +78,7 @@ This repository contains a series of exercises designed to help users practice b
 1. Use the `$where` operator to find all employees with a salary over 75,000.
 2. Use the `$where` operator to find all employees where the `name` contains "John".
 
-**Screenshot:**
+### Screenshot
 ![Exercise F](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20f.png)
 
 
@@ -89,5 +86,5 @@ This repository contains a series of exercises designed to help users practice b
 
 1. Using only one collection from the `employees` database, query all documents in that collection but return only the `name` and `salary` fields.
 
-**Screenshot:**
+### Screenshot
 ![Exercise G](https://github.com/tlklein/mongodb-exercises/blob/0b44631d43d3c72f1bd2c7fb781898765d47cfae/screenshots/hm%202%20part%20g.png)
