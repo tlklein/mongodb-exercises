@@ -92,7 +92,7 @@ This repository contains a series of exercises designed to help users practice b
 
 ## About the Author
 
-This activity was completed as part of the **CIS 4338 Database Administration & Implementation** at the University of Houston under the guidance of Professor Susan Miertschin.
+This activity was completed as part of the **CIS 4338 Database Administration & Implementation** course at the University of Houston under the guidance of Professor Susan Miertschin.
 
 ---
 
